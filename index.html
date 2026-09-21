@@ -4,16 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To Do</title>
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
-    <h1>📝My To Do App</h1>
-    <input id="taskInput" type="text" placeholder="Enter your task">
-    <button id="addBtn">Add</button>
+    <div class ="container">
+    <h1>📝 My To Do <span style="color: rgb(83, 26, 230);">App</span></h1>
+    <p>Plan Today . Do Tomorrow . Be Better Everyday</p> 
+
+    <input id="taskInput" type="text" placeholder="Enter your task here...">
+    <button id="addBtn">+Add</button>
+    <div>
     <p>
         Total Task :
         <span id="taskCount">0</span>
     </p>
+    </div>
     <ul id="taskList"></ul>
+
+    </div>
 <script src="script.js"></script>
     
 </body>
