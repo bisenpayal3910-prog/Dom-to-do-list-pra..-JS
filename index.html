@@ -5,19 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To Do</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
     
 </head>
 <body>
     <div class ="container">
-    <h1>📝 My To Do <span style="color: rgb(83, 26, 230);">App</span></h1>
+    <h1 style="font-weight: bold;">📝 My To Do <span style="color: rgb(83, 26, 230);">App</span></h1>
     <p>Plan Today . Do Tomorrow . Be Better Everyday</p> 
-
+<div>
     <input id="taskInput" type="text" placeholder="Enter your task here...">
     <button id="addBtn">+Add</button>
-    <div>
+    </div>
+    <div class ="task-stats">
     <p>
         Total Task :
         <span id="taskCount">0</span>
+    </p>
+
+     <p>
+        Completed Task :
+        <span id="completedTask">0</span>
+    </p>
+
+    <p>
+        pending Task :
+        <span id="pendingTask">0</span>
     </p>
     </div>
     <ul id="taskList"></ul>
