@@ -5,9 +5,13 @@
 
 }
 
+body{
+    background-color: rgba(213, 191, 241, 0.685);
+}
+
 .container{
    margin-top:20vh ;
-   margin-left: 3vw;
+   margin-left: 30vw;
    margin-right: 30vw;
    padding: 10px;
     /* display: flex;
@@ -15,9 +19,9 @@
     align-items: center;
     text-align: center;
     flex-direction: column;
-    background-color: #f4f1f1e1;
+    background-color: #f9f8faf0;
     border-radius: 10px;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.349);
+   box-shadow: 10px 10px 10px rgba(206, 196, 217, 0.719);
 }
 
 #taskInput{
@@ -51,5 +55,30 @@ div{
     font-weight: 600;
     display: flex;
     justify-content: center;
-  
+ 
+}
+
+.task-stats{
+     background-color: #f1edf5d7 ;
+      box-shadow: 0px 10px 10px rgba(229, 222, 236, 0.719);
+     padding: 20px;
+     border-radius: 8px;
+     gap: 35px;
+}
+
+/* -------------------media query---------------- */
+
+.container{
+   width:600px;
+        margin:50px  auto;
+        padding: 30px;
+
+}
+
+@media (max-width: 576px){
+    .container{
+        width:90%;
+        margin:30px auto;
+        padding: 20px;
+    }
 }
